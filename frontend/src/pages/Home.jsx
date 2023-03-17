@@ -31,7 +31,7 @@ const Home = () => {
                 </Col>
                 <Col lg='2'>
                     <div className='hero__img-box mt-4'>
-                        <video src={heroVideo} controls></video>
+                        <video src={heroVideo} controls loop autoPlay></video>
                     </div>
                 </Col>
                 <SearchBar />
